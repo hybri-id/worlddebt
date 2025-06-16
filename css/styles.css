@@ -1,0 +1,201 @@
+/* Center everything and apply some spacing */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    min-height: 100vh;       /* full viewport height */
+    box-sizing: border-box;
+}
+
+main, /* Wrap your content (e.g. a main container), or the body if no wrapper */
+table {
+    max-width: 900px;
+    width: 100%;	
+	margin: 0px auto 50px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+	text-align: center;
+	color: #333;
+}
+/* Responsive grid table replacement */
+table {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr;
+    grid-auto-rows: minmax(40px, auto);
+}
+
+thead {
+    display: contents; /* allow grid to control all cells */
+}
+
+thead tr {
+    display: contents;
+}
+
+tbody {
+    display: contents;
+}
+
+/* Style header cells */
+th {
+    padding: 12px 15px;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    border-bottom: 2px solid #1565c0;
+    text-align: left;
+}
+
+/* Style body cells */
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    align-self: center;
+}
+
+/* Country link styling */
+a.country-link {
+    color: #1976d2;
+    text-decoration: none;
+}
+a.country-link:hover, a.country-link:focus {
+    text-decoration: underline;
+}
+
+/* Row highlighting */
+tbody tr:hover td {
+    background-color: #f1f8ff;
+    cursor: pointer;
+}
+
+/* Each row requires 3 cells, so we group rows by manually */
+tbody tr {
+    display: contents;
+}
+
+th.sortable {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    padding-right: 24px;
+}
+
+th.sortable::after {
+    content: '⬍'; /* Unicode sort icon */
+    font-size: 0.7em;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #bbb;
+}
+
+th.sortable[aria-sort="ascending"]::after {
+    content: '▲';
+    color: #1976d2;
+}
+
+th.sortable[aria-sort="descending"]::after {
+    content: '▼';
+    color: #1976d2;
+}
+/* Center filter input and export button */
+.filter, div[style*="text-align:center"] {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+.filter {
+	max-width: 400px;
+	margin: 20px auto;
+	text-align: center;
+}
+.filter input {
+	width: 90%;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+footer {
+	text-align: center;  /* Center the text */
+	margin-top: 20px;    /* Space above the footer */
+	padding: 10px 0;     /* Vertical padding */
+	background-color: #f4f7fa; /* Background color of the footer */
+	position: fixed;   /* Relative positioning for better layout control */
+	width: 100%;          /* Full width */
+	bottom: 0;            /* Stick to the bottom */
+}
+
+footer p {
+	margin: 0;            /* Remove default margin */
+	color: #333;          /* Text color */
+	font-size: 0.9rem;    /* Font size */
+}
+a {
+    color: #1976d2;
+}
+
+#lastUpdated {
+	text-align: center;
+	color: #666;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.installInstructions {
+	text-align: center;
+	margin-bottom: 16px;
+	display: none
+}
+
+output {
+	display: block;
+	color: gray;
+	margin: 32px 16px;
+	text-align: center;
+	border: 1px silver dashed;
+	padding: 16px;
+	border-radius: 16px;  
+}
+
+button {
+	font-size: 16px;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 0 8px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media (display-mode: browser) {
+   .installInstructions {
+		display: none;
+   }
+}
+/* Hide last column (3rd column) on screens under 460px */
+@media screen and (max-width: 460px) {
+    table {
+        grid-template-columns: 2.5fr 1fr; /* two columns only */
+    }
+    th:last-child, 
+    td:nth-child(3) {
+        display: none;
+    }
+}

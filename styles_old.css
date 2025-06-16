@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #f4f7fa;
+	margin: 0;
+	padding: 20px;
+	display: grid;
+}
+h1 {
+	text-align: center;
+	color: #333;
+}
+.filter {
+	max-width: 400px;
+	margin: 20px auto;
+	text-align: center;
+}
+.filter input {
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+table {
+	border-collapse: collapse;
+	width: 90%;
+	max-width: 900px;
+	margin: 50px auto;
+	background: white;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+th, td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #dcdcdc;
+}
+th {
+	background-color: #1976d2;
+	color: white;
+}
+tr:hover {
+	background-color: #f1f8ff;
+	cursor: pointer;
+}
+a {
+    color: #1976d2;
+}
+a.country-link {
+	color: #1976d2;
+	text-decoration: none;
+}
+a.country-link:hover {
+	text-decoration: underline;
+}
+#lastUpdated {
+	text-align: center;
+	color: #666;
+	margin-top: 10px;
+	font-size: 14px;
+}
+footer {
+	text-align: center;  /* Center the text */
+	margin-top: 20px;    /* Space above the footer */
+	padding: 10px 0;     /* Vertical padding */
+	background-color: #f1f1f1; /* Background color of the footer */
+	position: fixed;   /* Relative positioning for better layout control */
+	width: 100%;          /* Full width */
+	bottom: 0;            /* Stick to the bottom */
+}
+
+footer p {
+	margin: 0;            /* Remove default margin */
+	color: #333;          /* Text color */
+	font-size: 0.9rem;    /* Font size */
+}
