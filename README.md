@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hybri-id/worlddebt">
-    <img src="img/web-app-manifest-192x192.png" alt="Logo" width="80" height="80">
+    <img src="img/favicon.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">World Debt</h3>
