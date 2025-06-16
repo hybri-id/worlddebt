@@ -79,7 +79,7 @@
 This application shows real time information of country's debt with some additional information like population or GDP.
 You can import fresh data aswell with a CSV file.
 
-To install this app, just copy all the content on your server, and open install.php script then add the data importing a .csv with the fields required, or use the country_debts.csv that comes with this project.
+To install this app, just copy all the content on your server, and open install.php script then add the data importing a .csv with the fields required, or use the country_debts.csv that is included with this project.
 
 Use this `README.md` to get started.
 
@@ -110,7 +110,7 @@ For Windows installations, you will need to execute Apache server with php and m
 
 ### Installation
 
-You only need to download the package and copy it to your XAMPP htdocs or public_html directory. Then open the browser, point to your server and run install.php. You can setup the database user and password inside db.php file.
+You only need to download the package and copy it to your XAMPP htdocs or public_html directory. Then open the browser, point to your server and run install.php. You can setup the database user and password inside db.php file. You can also import data with .csv files.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
