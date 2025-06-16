@@ -33,7 +33,7 @@
     <a href="https://github.com/hybri-id/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/hybri-id/worlddebt/tree/main/assets/images">Screenshots</a>
+    <a href="https://github.com/hybri-id/worlddebt/tree/main/img">Screenshots</a>
     ·
     <a href="https://github.com/hybri-id/worlddebt/issues">Report Bug</a>
     ·
