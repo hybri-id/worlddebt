@@ -6,15 +6,16 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GPLv3License][license-shield]][license-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
   <a href="https://github.com/hybri-id/worlddebt">
     <img src="img/favicon.svg" alt="Logo" width="80" height="80">
   </a>
