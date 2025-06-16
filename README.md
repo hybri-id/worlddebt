@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/hybri-id/worlddebt/tree/main/images)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/hybri-id/worlddebt/tree/main/img/screenshot.png)
 
 This application shows real time information of country's debt with some additional information like population or GDP.
 You can import fresh data aswell. 
@@ -220,7 +220,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://es.linkedin.com/in/xaviouteiral
 [Twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=linkedin&colorB=3398FF
 [Twitter-url]: https://twitter.com/
-[product-screenshot]: assets/images/screenshot.png
+[product-screenshot]: img/screenshot.png
 [PHP-shield]: https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
 [PHP-url]: https://www.php.net/
 [MySQL-shield]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
