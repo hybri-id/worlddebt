@@ -77,8 +77,9 @@
 [![Product Name Screen Shot][product-screenshot]](https://github.com/hybri-id/worlddebt/tree/main/img/screenshot.png)
 
 This application shows real time information of country's debt with some additional information like population or GDP.
-You can import fresh data aswell. 
-Just copy all the content on your server, and open install.php script then add the data importing a .csv with the fields required, or use the country_debts.csv that comes with this project.
+You can import fresh data aswell with a CSV file.
+
+To install this app, just copy all the content on your server, and open install.php script then add the data importing a .csv with the fields required, or use the country_debts.csv that comes with this project.
 
 Use this `README.md` to get started.
 
